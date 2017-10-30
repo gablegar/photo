@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fotografia para matrimonios bodas Bogota Colombia</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Fotografia para matrimonios bodas Bogota Colombia">
+  <meta name="keywords" content="fotografia,matrimonios,bodas,bogota,colombia,Bogotá">
+  <meta name="author" content="Gabriel Legarda">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/mainimages.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-card-2 w3-animate-top w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="./fotografia-matrimonio-bogota.html" class="w3-bar-item w3-button">INICIO</a>
+    <a href="./fotografia-bogota-articulos.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> ARTICULOS</a>
+    <a href="./fotografia-bogota-portafolio.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTAFOLIO</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./fotografia-bogota-portafolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTAFOLIO</a>
+    <a href="./fotografia-bogota-articulos.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ARTICULOS</a>
+  </div>
+</div>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACTO</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Donde trabajamos</h3>
+  <p class="w3-center"><em>¡Nos encantaría saber de ti! Ofrecemos el servicio de fotografía en Bogotá y Colombia.</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bogotá, Colombia<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefono: +57 3014951682<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: info@canvasestudio.com.co<br>
+      </div>
+      <p>Dejanos tus datos, te contactaremos lo mas pronto posible</p>
+      <form action="mail.php" method="POST">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="email">
+          </div>
+        </div>
+        <textarea cols=40 rows=10 class="w3-input w3-border" type="text" placeholder="Mensaje" required name="message"></textarea>
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <div class="w3-xlarge w3-section">
+    <a class="fa fa-facebook-official w3-hover-opacity" target="_blank" href="https://www.facebook.com/canvasestudiocol/"></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+  </div>
+  <p>Canvas estudio fotografía de bodas</p>
+</footer>
+ 
+<script src="./js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEcADiNrE0S7CYcE0BIuSx56H6M5n0nbg&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>

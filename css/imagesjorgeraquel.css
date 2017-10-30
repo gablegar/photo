@@ -1,0 +1,14 @@
+.bgimg-1 {
+    background-image: url('../img/matrimonio-Jorge-y-Raquel/IMG_3830.jpg');
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("../img/matrimonio-Jorge-y-Raquel/IMG_3908.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("../img/matrimonio-Jorge-y-Raquel/IMG_3980.jpg");
+    min-height: 400px;
+}
